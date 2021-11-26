@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Chanoknon Portfolio</title>
+<title>CSS Template</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./css/styles.css">
+<link id="theme" rel="stylesheet" href="css/light.css">
+
+<script>
+  function toggleTheme() {
+      // Obtains an array of all <link>
+      // elements.
+      // Select your element using indexing.
+      var theme = document.getElementsByTagName('link')[0];
+
+      // Change the value of href attribute 
+      // to change the css sheet.
+      if (theme.getAttribute('href') == 'css/light.css') {
+          theme.setAttribute('href', 'css/dark.css');
+      } else {
+          theme.setAttribute('href', 'css/light.css');
+      }
+    }
+
+    function sweetTheme() {
+          theme.setAttribute('href', 'css/sweet.css');
+    }
+</script>
 </head>
 <body>
-
 
 <header>
   <h2>Chanoknon Portfolio</h2>
 </header>
-
+<img src="img/idea.png" class="dark-mode" onclick='toggleTheme()'>
+<img src="img/cake.png" class="sweet-mode" onclick='sweetTheme()'>
 <section>
   <nav>
     <ul>
@@ -23,7 +44,7 @@
   </nav>
   
   <article>
-    <h1>Violet are blue But you are the one visited!</h1>
+    <h1>How You Like That</h1>
     <p>
         Ha, how you like that?<br/>
 You gon' like that, that that that, that, that that that, that<br/>
