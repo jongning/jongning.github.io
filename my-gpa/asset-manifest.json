@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-gpa/static/css/main.56e6221f.css",
+    "main.js": "/my-gpa/static/js/main.a0e74f92.js",
+    "static/js/787.4acfbe42.chunk.js": "/my-gpa/static/js/787.4acfbe42.chunk.js",
+    "index.html": "/my-gpa/index.html",
+    "main.56e6221f.css.map": "/my-gpa/static/css/main.56e6221f.css.map",
+    "main.a0e74f92.js.map": "/my-gpa/static/js/main.a0e74f92.js.map",
+    "787.4acfbe42.chunk.js.map": "/my-gpa/static/js/787.4acfbe42.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56e6221f.css",
+    "static/js/main.a0e74f92.js"
+  ]
+}
